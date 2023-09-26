@@ -6,9 +6,9 @@
 
 # WinForms Data Grid - Highlight modified cells
 
-This examples shows how to highlight modified cells.
+This example shows how to highlight modified cells.
 
-Once the user changed a cell's value, the cell is added to the `modifiedCells` collection:
+Once the user changes a cell's value, the cell is added to the `modifiedCells` collection:
 
 ```csharp
 List<GridCell> modifiedCells = new List<GridCell>();
