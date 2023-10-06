@@ -6,6 +6,10 @@
 
 # WinForms Data Grid - Highlight modified cells
 
+> **Note**
+> 
+> In v19.1+, you can use the [FormatConditionRuleDataUpdate class](https://docs.devexpress.com/WindowsForms/DevExpress.XtraEditors.FormatConditionRuleDataUpdate) to highlight a cell with a custom icon and/or appearance settings for a limited time when a cell value changes in GridView, BandedGridView, and AdvBandedGridView. [Example](https://docs.devexpress.com/WindowsForms/400738/controls-and-libraries/data-grid/examples/conditional-formatting/how-to-temporarily-highlight-a-cell-when-a-value-changes)
+
 This example shows how to highlight modified cells.
 
 Once the user changes a cell's value, the cell is added to the `modifiedCells` collection:
